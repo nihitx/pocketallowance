@@ -6,8 +6,8 @@ class Main_page extends CI_Model{
 	 * Constructor for discovery
 	 * 
 	 */
-	function __construct(){
-		parent::__construct();		
+	function __Construct(){
+		parent::__Construct();		
 	}
         
         /**
