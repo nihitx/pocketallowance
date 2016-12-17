@@ -22,7 +22,6 @@
                              
                 })
                 .fail(function(jqXHR, textStatus, errorThrown) {
-                    self.errorMessage(textStatus);
                     alert(  errorThrown + textStatus);
             })
             .always(function(data){
