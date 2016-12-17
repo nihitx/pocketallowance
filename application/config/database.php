@@ -73,34 +73,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'tutorials',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
-
 //$db['default'] = array(
 //	'dsn'	=> '',
-//	'hostname' => 'mysql.metropolia.fi',
-//	'username' => 'masnadn',
+//	'hostname' => 'localhost',
+//	'username' => 'root',
 //	'password' => 'root',
-//	'database' => 'masnadn',
+//	'database' => 'tutorials',
 //	'dbdriver' => 'mysqli',
 //	'dbprefix' => '',
 //	'pconnect' => FALSE,
@@ -116,3 +94,25 @@ $db['default'] = array(
 //	'failover' => array(),
 //	'save_queries' => TRUE
 //);
+
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'us-cdbr-iron-east-04.cleardb.net',
+	'username' => 'bef898fa7ad5f9',
+	'password' => 'a523ceca',
+	'database' => 'heroku_a781b5836f0f537',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
