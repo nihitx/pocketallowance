@@ -23,11 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-/* base url for local 
-$config['base_url'] = 'http://localhost:8888/pocketallowance'; */
+/* base url for local  */
+$config['base_url'] = 'http://localhost:8888/pocketallowance';
 
-/* base url for heroku */
-$config['base_url'] = ' https://mysterious-spire-25749.herokuapp.com/';
+/* base url for heroku 
+$config['base_url'] = ' https://mysterious-spire-25749.herokuapp.com/';*/
 
 /*
 |--------------------------------------------------------------------------

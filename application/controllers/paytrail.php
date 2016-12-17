@@ -109,7 +109,7 @@ class Paytrail extends CI_Controller {
         
 //             $orderNumber = json_decode($_GET["ORDER_NUMBER"], true);
 //            $this->adduserCash();
-            redirect('main/Admin');
+            redirect('welcome/Admin');
                
         }
         else {
